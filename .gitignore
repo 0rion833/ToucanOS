@@ -1,0 +1,12 @@
+
+/rootfs/
+/iso_root/
+
+
+/*.iso
+/boot/initramfs.cpio.gz
+
+
+*.swp
+*.tmp
+.DS_Store

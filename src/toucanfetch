@@ -1,0 +1,19 @@
+#!/bin/sh
+
+CYAN='\033[1;36m'
+WHITE='\033[1;37m'
+RED='\033[1;31m'
+GRAY='\033[0;37m'
+RESET='\033[0m'
+
+echo ""
+echo -e "  ${CYAN}Welcome to ${WHITE}ToucanOS ${CYAN}(v0.1-beta)${RESET}"
+echo -e "  ${GRAY}Minimalist Dev-Focused Linux Environment${RESET}"
+echo -e "  ${CYAN}------------------------------------------${RESET}"
+echo -e "  ${RED}OS:${RESET}        ToucanOS x86_64"
+echo -e "  ${RED}Kernel:${RESET}    $(uname -r)"
+echo -e "  ${RED}Init:${RESET}      Custom BusyBox initramfs"
+echo -e "  ${RED}Target:${RESET}    Development / C-Sandbox / Microservices"
+echo -e "  ${CYAN}------------------------------------------${RESET}"
+echo -e "  ${RED}Palette:${RESET}   \033[40m   \033[41m   \033[42m   \033[43m   \033[44m   \033[45m   \033[46m   \033[47m   \033[0m"
+echo ""
