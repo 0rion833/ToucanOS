@@ -124,7 +124,7 @@ The project is still experimental, and the system architecture, userspace, build
 
 ## License
 
-ToucanOS is licensed under the **GNU General Public License v2.0**.
+ToucanOS is licensed under the **GNU General Public License v3.0**.
 
 See [`LICENSE`](LICENSE) for more information.
 
